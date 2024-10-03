@@ -1,0 +1,6 @@
+@MicroBook.Client_HostAddress = http://localhost:5133
+
+GET {{MicroBook.Client_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
