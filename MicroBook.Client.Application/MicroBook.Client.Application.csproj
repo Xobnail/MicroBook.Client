@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MicroBook\MicroBook.Contracts\MicroBook.Contracts.csproj" />
+    <ProjectReference Include="..\MicroBook.Client.Domain\MicroBook.Client.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
