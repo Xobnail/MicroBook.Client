@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MicroBook\MicroBook.Contracts\MicroBook.Contracts.csproj" />
+    <ProjectReference Include="..\MicroBook.Client.Contracts\MicroBook.Client.Contracts.csproj" />
     <ProjectReference Include="..\MicroBook.Client.Domain\MicroBook.Client.Domain.csproj" />
   </ItemGroup>
 

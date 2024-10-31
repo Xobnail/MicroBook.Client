@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  microbook.client.host:
+    image: ${DOCKER_REGISTRY-}microbookclienthost
+    build:
+      context: .
+      dockerfile: MicroBook.Client/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    networks:
+      - microbook_network
+
+networks:
+  microbook_network:
+    name: microbook_network
+    driver: bridge
